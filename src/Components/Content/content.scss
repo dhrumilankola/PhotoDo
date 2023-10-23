@@ -1,0 +1,326 @@
+.content {
+  //   border: 2px solid red;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  background: #fffff0;
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      display: none;
+    }
+
+    .dot {
+      border-radius: 50%;
+      background: #292922;
+      height: 5px;
+      width: 5px;
+    }
+
+    input:checked + label {
+      color: #DAA520;
+    }
+    label {
+      margin: 0 20px;
+      color: #292922;
+      font-weight: 500;
+      position: relative;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+
+    .imgContainer {
+      height: 300px;
+      width: 450px;
+      overflow: hidden;
+      border-radius: 10px;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        transition: all 500ms ease;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+
+  button {
+    align-self: center;
+    margin-top: 50px;
+    width: fit-content;
+    padding: 10px 15px;
+    width: 200px;
+    background: #DAA520;
+    border: 2px solid #DAA520;
+    color: #333333 ;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 500ms ease;
+    border-radius: 5px;
+
+    &:hover {
+      background: #333333 ;
+      color: #DAA520;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .content {
+    //   border: 2px solid red;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      input {
+        display: none;
+      }
+
+      .dot {
+        border-radius: 50%;
+        background: #292922;
+        height: 5px;
+        width: 5px;
+      }
+
+      input:checked + label {
+        color: #e80e2b;
+      }
+      label {
+        margin: 0 20px;
+        color: #292922;
+        font-weight: 500;
+        position: relative;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 20px;
+      }
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-top: 50px;
+      gap: 20px;
+
+      .imgContainer {
+        height: 230px;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 10px;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          cursor: pointer;
+          transition: all 500ms ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+
+    button {
+      align-self: center;
+      margin-top: 50px;
+      width: fit-content;
+      padding: 10px 15px;
+      width: 200px;
+      background: #e80e2b;
+      border: 2px solid #e80e2b;
+      color: white;
+      font-weight: 500;
+      font-size: 18px;
+      cursor: pointer;
+      transition: all 500ms ease;
+      border-radius: 5px;
+
+      &:hover {
+        background: white;
+        color: #e80e2b;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .content {
+    min-width: 320px;
+    //   border: 2px solid red;
+    padding: 30px 20px;
+
+    form {
+      flex-wrap: wrap;
+
+      .dot {
+        border-radius: 50%;
+        background: #292922;
+        height: 4px;
+        width: 4px;
+      }
+
+      label {
+        margin: 0 5px;
+        color: #292922;
+        font-weight: 500;
+        position: relative;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-top: 30px;
+      gap: 15px;
+
+      .imgContainer {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          cursor: pointer;
+          transition: all 500ms ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+
+    button {
+      align-self: center;
+      margin-top: 30px;
+      width: fit-content;
+      padding: 10px 15px;
+      width: 200px;
+      background: #e80e2b;
+      border: 2px solid #e80e2b;
+      color: white;
+      font-weight: 500;
+      font-size: 18px;
+      cursor: pointer;
+      transition: all 500ms ease;
+      border-radius: 5px;
+
+      &:hover {
+        background: white;
+        color: #e80e2b;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content {
+    min-width: 320px;
+    //   border: 2px solid red;
+    padding: 20px 20px;
+
+    form {
+      flex-wrap: wrap;
+
+      .dot {
+        border-radius: 50%;
+        background: #292922;
+        height: 4px;
+        width: 4px;
+      }
+
+      label {
+        margin: 0 5px;
+        color: #292922;
+        font-weight: 500;
+        position: relative;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-top: 30px;
+      gap: 15px;
+
+      .imgContainer {
+        height: 200px;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          cursor: pointer;
+          transition: all 500ms ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+
+    button {
+      align-self: center;
+      margin-top: 20px;
+      width: fit-content;
+      padding: 5px 10px;
+      width: 200px;
+      background: #e80e2b;
+      border: 2px solid #e80e2b;
+      color: white;
+      font-weight: 500;
+      font-size: 18px;
+      cursor: pointer;
+      transition: all 500ms ease;
+      border-radius: 5px;
+
+      &:hover {
+        background: white;
+        color: #e80e2b;
+      }
+    }
+  }
+}

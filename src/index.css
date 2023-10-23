@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+}
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #DAA520;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffe7e7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #DAA520;
+  border-radius: 50px;
+  border: none;
+}
+
+@media screen and (max-width: 1050px) {
+  * {
+    scrollbar-width: 5px !important;
+    scrollbar-color: #DAA520;
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #ffe7e7;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #DAA520;
+    border-radius: 50px;
+    border: none;
+  }
+}

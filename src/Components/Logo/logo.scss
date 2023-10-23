@@ -1,0 +1,50 @@
+.logo {
+  position: sticky;
+  padding: 20px 0;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background: #fffff0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 40px;
+    margin: 0;
+
+    span {
+      color: #DAA520;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .logo {
+    // border: 2px solid red;
+    padding: 10px 0;
+
+    h2 {
+      font-size: 35px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    padding: 10px 0;
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    min-width: 320px;
+    padding: 10px 0;
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
