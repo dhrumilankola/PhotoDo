@@ -4,7 +4,7 @@ Welcome to PhotoDo, a project crafted by [Your Name] for an exciting photo searc
 
 ## Features
 
-- **Effortless Photo Search**: Our app simplifies the search process. Users can input keywords and retrieve photos related to their projects.
+- **Effortless Photo Search**: This webapp simplifies the search process. Users can input keywords and retrieve photos related to their projects.
 - **High-Quality Imagery**: PhotoDo guarantees access to top-quality, high-resolution images that elevate your designs.
 - **Zero-Cost Downloads**: Every photo available through PhotoDo is free for you to download and use as you see fit.
 - **User-Friendly Interface**: The app is designed to be intuitive and straightforward, so you can find and download the perfect photos with ease.
